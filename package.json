@@ -1,0 +1,20 @@
+{
+  "name": "proxy-axios",
+  "version": "1.0.0",
+  "description": "ES6 Proxy wrapper for the resful api of axios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proxy",
+    "axios",
+    "resful",
+    "api"
+  ],
+  "author": "localSummer",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
