@@ -3,9 +3,18 @@
 **proxy-axios依赖于axios,对axios的调用进行了封装**
 
 ```javascript
-npm install proxy-axios --save;
+npm install proxy-axios -S;
+or
+cnpm install proxy-axios -S
+or
+yarn add proxy-axios
 
+// ES6
 import {api, axios} from 'proxy-axios';
+
+// ES5
+const Api = require('proxy-axios');
+// Api: {api, axios}
 
 api下提供各种api封装，axios可用于添加全局请求配置，拦截器，并发请求等
 
