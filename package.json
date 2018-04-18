@@ -1,6 +1,6 @@
 {
   "name": "proxy-axios",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ES6 Proxy wrapper for the resful api of axios",
   "main": "index.js",
   "scripts": {
