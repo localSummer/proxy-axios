@@ -17,7 +17,8 @@ const api = new Proxy(
             return (...args) => {
                 const url = path.replace(/\$/g, () => args.shift());
                 const options = args.shift() || {};
-                return axios({ method, url, ...options });
+                let config = Object.assign({ method, url }, options);
+                return axios(config);
             };
         }
     }
