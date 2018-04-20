@@ -11,6 +11,10 @@
     "axios",
     "resful api"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/localSummer/proxy-axios.git"
+  },
   "author": "localSummer",
   "license": "ISC",
   "dependencies": {
